@@ -29,7 +29,7 @@ public class NewsAdaptor extends RecyclerView.Adapter<NewsAdaptor.ViewHolder> {
 
     public  NewsAdaptor(){
         list = new ArrayList<>();
-    }
+    }   
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {

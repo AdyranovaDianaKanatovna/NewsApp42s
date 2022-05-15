@@ -1,5 +1,6 @@
 package com.example.news_app43.register;
 
+import android.app.ProgressDialog;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -32,6 +33,7 @@ public class RegisterFragment extends Fragment {
     private FragmentRegisterBinding binding;
     private static PhoneAuthProvider.OnVerificationStateChangedCallbacks mCallbacks;
     private static FirebaseAuth mAuth;
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

@@ -35,6 +35,10 @@ public class Article implements Serializable {
         this.date = date;
     }
 
+    public Article() {
+
+    }
+
     public Article(String text, long date) {
         this.text = text;
         this.date = date;

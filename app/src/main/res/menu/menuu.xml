@@ -5,6 +5,8 @@
     android:id="@+id/Cleanone"/>
     <item android:title="Sort by alphabet"
         android:id="@+id/sort"/>
+    <item android:title="Log out"
+        android:id="@+id/logout"/>
     <item android:id="@+id/action_search"
         android:title="Search"
         android:icon="@drawable/isearch"

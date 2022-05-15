@@ -26,6 +26,7 @@ import com.example.news_app43.onItemClickListeners.OnItemClickListener;
 import com.example.news_app43.R;
 import com.example.news_app43.databinding.FragmentHomeBinding;
 import com.example.news_app43.models.Article;
+import com.google.firebase.auth.FirebaseAuth;
 
 import java.util.List;
 
@@ -35,6 +36,8 @@ public class HomeFragment extends Fragment {
     private FragmentHomeBinding binding;
     private boolean isediting = false;
     private int index;
+    FirebaseAuth firebaseAuth;
+
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -48,7 +51,8 @@ public class HomeFragment extends Fragment {
 
 
     public View onCreateView(@NonNull LayoutInflater inflater,
-                             ViewGroup container, Bundle savedInstanceState) {
+                             ViewGroup container,
+                             Bundle savedInstanceState) {
 
         binding = FragmentHomeBinding.inflate(inflater,
                 container, false);
